@@ -7,10 +7,12 @@ public class Node {
 	public Node() {
 		this.data = null;
 		this.next = null;
+		this.prev = null;
 	}
 	public Node(Object data) {
 		this.data = data;
 		this.next = null;
+		this.prev = null;
 	}
 	public Object getData() {
 		return data;
